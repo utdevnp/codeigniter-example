@@ -1,0 +1,127 @@
+/* costume Css */
+
+.nopadding{
+    padding:0px !important;
+}
+.notice {
+    padding: 11px;
+    background-color: #fff;
+    border-left: 6px solid #7f7f84;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin-bottom: 10px;
+	border-radius:0px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+            box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+}
+.notice-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+.notice-success {
+    border-color: #80D651;
+}
+.notice-success>strong {
+    color: #80D651;
+}
+.notice-info {
+    border-color: #45ABCD;
+}
+.notice-info>strong {
+    color: #45ABCD;
+}
+.notice-warning {
+    border-color: #FEAF20;
+}
+.notice-warning>strong {
+    color: #FEAF20;
+}
+.notice-danger {
+    border-color: #d73814;
+}
+.notice-danger>strong {
+    color: #d73814;
+}
+
+
+
+.box-footer > .row{
+  padding:0px;
+}
+
+.topbuttons{
+  margin-left:5px !important;
+   margin-right: -8px !important;
+    margin-top: -2px !important;
+    margin-left:7px;
+}
+
+.mainheadig{
+    margin-bottom: 7px;
+}
+
+
+.stricts{
+    color:red;
+    font-weight:bold;
+}
+
+.confirm-delete {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.horizentaline{
+    background: :#dedede;
+    border:1px solid #dedede;
+}
+.bustitle{
+    color:#585858;
+}
+.bustitle .fa{
+    font-size:20px !important;
+}
+.bustitle p{
+    font-weight: 600;
+    font-size:16px;
+    line-height: 19px;
+}
+.bustitle small{
+    font-size:14px;
+}
+.busname{
+    margin-top:10px;
+}
+
+.bustime{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.busboardiingimage img{
+    margin-top:17px;
+}
+.faredetails{
+    border-right:1 px solid #dedede;
+}
+.faredetails price{
+     font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 51px;
+    text-transform: uppercase;
+}
+.viewboardngpoint{
+    background: #FCFCFC;
+    padding: 8px;
+    border: 0px solid #D5D5D5;
+    border:2px solid #fff;
+    }

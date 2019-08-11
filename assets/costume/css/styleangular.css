@@ -1,0 +1,221 @@
+
+/* ------------------------------------------------------- 
+* Description:  Utshab AngularJS 
+* Author:       Utshab utshabluitel.utshab@gmail.com
+
+---------------------------------------------------------*/
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  #printarea, #printarea * {
+    visibility: visible !important;
+    padding: :0px !important;
+    margin:0px !important;
+  }
+  #printarea {
+    position: absolute !important;
+    text-shadow:none !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+}
+
+
+.addfields{
+    margin: 10px 0;
+}
+
+#choicesDisplay {
+    padding: 10px;
+    background: rgb(227, 250, 227);
+    border: 1px solid rgb(171, 239, 171);
+    color: rgb(9, 56, 9);
+}
+.remove{
+    background: #C76868;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 9px;
+    vertical-align: top;
+    line-height: 100%;   
+}
+input[type="text"],
+select{
+    padding:5px;
+}
+
+#multiselect .select {
+	background: url('../../../uploads/seats/seat-open.png')no-repeat;
+    width:46px; height: 39px;
+    margin-bottom:-5px;
+    cursor: pointer;
+
+}
+#multiselect .active {
+    background:url('../../../uploads/seats/seat-booking.png')no-repeat;
+    cursor: pointer;
+}
+.select span {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.searchedbus{
+    background: #FCFCFC;
+}
+.bus-seats {
+    padding-top: 12px;
+    /* height: auto; */
+    margin-bottom: 5px;
+    overflow: hidden;
+    background: #FCFCFC;
+    padding-bottom: 12px !important;
+}
+
+.seatdetails{
+    padding: 5px 5px 25px 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    background: #FCFCFC;
+}
+.seatdetails p{
+    border-bottom: 1px solid #dedede;
+}
+.seatdetails button{
+    margin-top: 2%;
+}
+.infobox{
+    background: #008d4c;
+    color: #fff;
+    padding: 1%;
+    margin: 1%;
+}
+.seatinfo{
+    overflow: hidden;
+    height: 20px;
+
+}
+.select{
+    background: none;
+}
+
+.selectseatinfo{
+    padding: 3px 5px 0px 20px;
+    overflow: hidden;
+    background: #FCFCFC;
+}
+.no-padding{border-top: 1px solid #f4f4f4 !important;}
+.post .user-block{
+    margin-bottom:0px !important;
+}
+
+.challanheader h3{
+    text-align: center;
+    margin-bottom: -15px !important;
+    margin-top: 6px;
+}
+
+.challanheader strong{
+    margin:  0px !important;
+    text-align: center !important;
+}
+#multiselect .disconnect {
+    opacity: 0.5 !important;
+}
+.last-martin{
+      padding-right: 0px;
+    margin-right: -20px;
+}
+.last-row{
+    padding-left: 0px
+   
+}
+/**/
+
+
+/** by utshab **/
+.minusmargintop{
+    margin-top:-22px;
+}
+
+.ticket-border{
+    border:1px solid #dedede;
+    overflow: hidden;
+}
+.bookinginfo{
+       padding-bottom: 16px;
+}
+.bookinginfo p{
+    border-bottom: 1px solid #dedede;
+}
+.bookingheading{
+        min-height: 72px;
+        background: #fff;
+}
+
+.fare{
+    background: #FCFCFC;
+    min-height: 69px;
+}
+.boardingarrow{
+    position: absolute;
+    right: 80px;
+    top: -4px;
+    font-size: 19px;
+}
+.cabin-seat {
+    margin-top: 58px;   
+}
+
+
+.inputer{
+/*  height: 0px;
+  border:none;
+  position: absolute;
+  background: #FCFCFC;
+  color: #FCFCFC;
+  cursor:context-menu;
+  top: 0;
+
+  padding: 0px !important;*/
+}
+.messages .help-block{
+  color:red;
+  font-size: 18px;
+}
+
+.bustype .btn:active{ 
+    background-color: #3c8dbc;
+}
+
+.cabin-seat-hice {
+    margin-top: 20px;
+}
+.passage-hice {
+    padding: 16px;
+}
+#ldegercompany {
+    overflow-y: scroll;
+    height: 450px;
+}
+.form-group {position:relative; padding-bottom: 12px;}
+.form-group vmessage{position:absolute;}
+.form-group vmessage small{color:red;}
+
+.busimages img{width:100%;}
+.selecttype button:active{background:green; outline:none;}
+.selecttype button:focus{background:green;outline:none;}
+.selecttype button:hover{background:green;outline:none;}
+
+.modal-header-danger {
+	color:#fff;
+    border-bottom:1px solid #eee;
+    background-color: #d9534f;
+}
